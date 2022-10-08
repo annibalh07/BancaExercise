@@ -1,0 +1,12 @@
+D:/BpInterface/BpInterface.Core/bin/Debug/net6.0/BpInterface.Core.deps.json
+D:/BpInterface/BpInterface.Core/bin/Debug/net6.0/BpInterface.Core.dll
+D:/BpInterface/BpInterface.Core/bin/Debug/net6.0/BpInterface.Core.pdb
+D:/BpInterface/BpInterface.Core/obj/Debug/net6.0/BpInterface.Core.csproj.AssemblyReference.cache
+D:/BpInterface/BpInterface.Core/obj/Debug/net6.0/BpInterface.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:/BpInterface/BpInterface.Core/obj/Debug/net6.0/BpInterface.Core.AssemblyInfoInputs.cache
+D:/BpInterface/BpInterface.Core/obj/Debug/net6.0/BpInterface.Core.AssemblyInfo.cs
+D:/BpInterface/BpInterface.Core/obj/Debug/net6.0/BpInterface.Core.csproj.CoreCompileInputs.cache
+D:/BpInterface/BpInterface.Core/obj/Debug/net6.0/BpInterface.Core.dll
+D:/BpInterface/BpInterface.Core/obj/Debug/net6.0/refint/BpInterface.Core.dll
+D:/BpInterface/BpInterface.Core/obj/Debug/net6.0/BpInterface.Core.pdb
+D:/BpInterface/BpInterface.Core/obj/Debug/net6.0/ref/BpInterface.Core.dll

@@ -1,0 +1,28 @@
+version: '3.4'
+
+services:
+  bpwebapi:
+    image: bpwebapi:dev
+    container_name: BpInterface.WebApi
+    build:
+      target: base
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "BpInterface.WebApi"
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_bpwebapi$
+    volumes:
+      - /Users/leonardohidrovo/Documents/BancaInterface-master/BpInterface.WebApi:/app
+      - /Users/leonardohidrovo/Documents/BancaInterface-master:/src
+      - /Users/leonardohidrovo/vsdbg/vs2017u5:/remote_debugger:rw
+#$nuget_volume_mapping_bpwebapi$
+
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_bpwebapi$ \"/app/bin/Debug/net6.0/BpInterface.WebApi.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+    tty: true

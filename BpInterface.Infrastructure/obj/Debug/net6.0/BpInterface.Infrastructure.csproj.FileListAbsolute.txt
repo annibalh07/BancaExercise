@@ -1,0 +1,17 @@
+D:/BpInterface/BpInterface.Infrastructure/bin/Debug/net6.0/BpInterface.Infrastructure.deps.json
+D:/BpInterface/BpInterface.Infrastructure/bin/Debug/net6.0/BpInterface.Infrastructure.runtimeconfig.json
+D:/BpInterface/BpInterface.Infrastructure/bin/Debug/net6.0/BpInterface.Infrastructure.dll
+D:/BpInterface/BpInterface.Infrastructure/bin/Debug/net6.0/BpInterface.Infrastructure.pdb
+D:/BpInterface/BpInterface.Infrastructure/bin/Debug/net6.0/BpInterface.Core.dll
+D:/BpInterface/BpInterface.Infrastructure/bin/Debug/net6.0/BpInterface.Core.pdb
+D:/BpInterface/BpInterface.Infrastructure/obj/Debug/net6.0/BpInterface.Infrastructure.csproj.AssemblyReference.cache
+D:/BpInterface/BpInterface.Infrastructure/obj/Debug/net6.0/BpInterface.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:/BpInterface/BpInterface.Infrastructure/obj/Debug/net6.0/BpInterface.Infrastructure.AssemblyInfoInputs.cache
+D:/BpInterface/BpInterface.Infrastructure/obj/Debug/net6.0/BpInterface.Infrastructure.AssemblyInfo.cs
+D:/BpInterface/BpInterface.Infrastructure/obj/Debug/net6.0/BpInterface.Infrastructure.csproj.CoreCompileInputs.cache
+D:/BpInterface/BpInterface.Infrastructure/obj/Debug/net6.0/BpInterface.Infrastructure.csproj.CopyComplete
+D:/BpInterface/BpInterface.Infrastructure/obj/Debug/net6.0/BpInterface.Infrastructure.dll
+D:/BpInterface/BpInterface.Infrastructure/obj/Debug/net6.0/refint/BpInterface.Infrastructure.dll
+D:/BpInterface/BpInterface.Infrastructure/obj/Debug/net6.0/BpInterface.Infrastructure.pdb
+D:/BpInterface/BpInterface.Infrastructure/obj/Debug/net6.0/BpInterface.Infrastructure.genruntimeconfig.cache
+D:/BpInterface/BpInterface.Infrastructure/obj/Debug/net6.0/ref/BpInterface.Infrastructure.dll

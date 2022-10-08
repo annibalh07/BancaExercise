@@ -1,0 +1,24 @@
+version: '3.4'
+
+services:
+  bancaweb:
+    build:
+      context: .
+      dockerfile: bpinterface.spa.webapp/Dockerfile
+    ports:
+      - "3000:3000"  
+  bpwebapi:
+    build:
+      context: .
+      dockerfile: BpInterface.WebApi/Dockerfile
+    ports:
+      - "8080:80"
+    depends_on:
+      - db
+  db:
+    image: mcr.microsoft.com/azure-sql-edge
+    ports:
+      - "1434:1433"
+    environment:
+      - MSSQL_SA_PASSWORD=StrongPwd1@
+      - ACCEPT_EULA=Y

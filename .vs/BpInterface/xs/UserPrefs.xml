@@ -1,0 +1,61 @@
+﻿<Properties StartupConfiguration="{27371CB9-9711-4BD1-A22E-9A75C700D52D}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.src.BpInterface.WebApi PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Tests.BpInterface.WebApi.IntegrationTests PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="docker-compose.yml">
+    <Files>
+      <File FileName="BpInterface.WebApi/Program.cs" Line="77" Column="20" />
+      <File FileName="BpInterface.Services/Implementations/CuentaService.cs" Line="57" Column="27" />
+      <File FileName="BpInterface.WebApi/Controllers/CuentaController.cs" Line="46" Column="70" />
+      <File FileName="BpInterface.WebApi/Controllers/MovimientoController.cs" Line="1" Column="1" />
+      <File FileName="BpInterface.WebApi/Controllers/ClienteController.cs" Line="40" Column="1" />
+      <File FileName="BpInterface.Core/Models/Dto/ClienteResponse.cs" Line="5" Column="36" />
+      <File FileName="BpInterface.Services/Implementations/ClienteService.cs" Line="95" Column="33" />
+      <File FileName="BpInterface.Infrastructure/Repositories/BpRepository.cs" Line="55" Column="20" />
+      <File FileName="BpInterface.Core/Models/Dto/CuentaResponse.cs" Line="1" Column="1" />
+      <File FileName="BpInterface.Services/Implementations/MovimientoService.cs" Line="1" Column="1" />
+      <File FileName=".dockerignore" Line="19" Column="7" />
+      <File FileName="docker-compose.yml" Line="6" Column="17" />
+      <File FileName="docker-compose.override.yml" Line="1" Column="1" />
+      <File FileName="BpInterface.WebApi/appsettings.Development.json" Line="1" Column="1" />
+      <File FileName="BpInterface.WebApi/appsettings.Docker.json" Line="3" Column="40" />
+      <File FileName="BpInterface.WebApi/Dockerfile" Line="8" Column="1" />
+      <File FileName="BpInterface.Infrastructure/Validations/ClienteRequestForCreateValidator.cs" Line="11" Column="75" />
+      <File FileName="BpInterface.Infrastructure/Validations/ClienteRequestForUpdateValidator.cs" Line="12" Column="76" />
+      <File FileName="BpInterface.Infrastructure/Validations/CuentaRequestForCreateValidator.cs" Line="12" Column="115" />
+      <File FileName="BpInterface.Infrastructure/Validations/CuentaRequestForUpdateValidator.cs" Line="16" Column="151" />
+      <File FileName="BpInterface.Infrastructure/Validations/MovimientoRequestForCreateValidator.cs" Line="15" Column="143" />
+      <File FileName="BpInterface.Infrastructure/Validations/MovimientoSearchParamsValidator.cs" Line="11" Column="111" />
+      <File FileName="BpInterface.Core/Enums.cs" Line="21" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BpInterface" expanded="True">
+            <Node name="src" expanded="True">
+              <Node name="BpInterface.Core" expanded="True" />
+              <Node name="BpInterface.Infrastructure" expanded="True">
+                <Node name="Validations" expanded="True" />
+              </Node>
+              <Node name="BpInterface.WebApi" expanded="True" />
+            </Node>
+            <Node name="docker-compose" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="BpInterface" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+</Properties>

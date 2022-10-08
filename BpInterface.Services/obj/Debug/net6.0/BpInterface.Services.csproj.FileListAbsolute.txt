@@ -1,0 +1,17 @@
+D:/BpInterface/BpInterface.Services/bin/Debug/net6.0/BpInterface.Services.deps.json
+D:/BpInterface/BpInterface.Services/bin/Debug/net6.0/BpInterface.Services.dll
+D:/BpInterface/BpInterface.Services/bin/Debug/net6.0/BpInterface.Services.pdb
+D:/BpInterface/BpInterface.Services/bin/Debug/net6.0/BpInterface.Core.dll
+D:/BpInterface/BpInterface.Services/bin/Debug/net6.0/BpInterface.Infrastructure.dll
+D:/BpInterface/BpInterface.Services/bin/Debug/net6.0/BpInterface.Core.pdb
+D:/BpInterface/BpInterface.Services/bin/Debug/net6.0/BpInterface.Infrastructure.pdb
+D:/BpInterface/BpInterface.Services/obj/Debug/net6.0/BpInterface.Services.csproj.AssemblyReference.cache
+D:/BpInterface/BpInterface.Services/obj/Debug/net6.0/BpInterface.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:/BpInterface/BpInterface.Services/obj/Debug/net6.0/BpInterface.Services.AssemblyInfoInputs.cache
+D:/BpInterface/BpInterface.Services/obj/Debug/net6.0/BpInterface.Services.AssemblyInfo.cs
+D:/BpInterface/BpInterface.Services/obj/Debug/net6.0/BpInterface.Services.csproj.CoreCompileInputs.cache
+D:/BpInterface/BpInterface.Services/obj/Debug/net6.0/BpInterface.Services.csproj.CopyComplete
+D:/BpInterface/BpInterface.Services/obj/Debug/net6.0/BpInterface.Services.dll
+D:/BpInterface/BpInterface.Services/obj/Debug/net6.0/refint/BpInterface.Services.dll
+D:/BpInterface/BpInterface.Services/obj/Debug/net6.0/BpInterface.Services.pdb
+D:/BpInterface/BpInterface.Services/obj/Debug/net6.0/ref/BpInterface.Services.dll

@@ -1,0 +1,52 @@
+name: dockercompose15117949227922450032
+services:
+  bancaweb:
+    build:
+      context: /Users/leonardohidrovo/Documents/BancaInterface-master
+      dockerfile: bpinterface.spa.webapp/Dockerfile
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 3000
+      published: "3000"
+      protocol: tcp
+  bpwebapi:
+    build:
+      context: /Users/leonardohidrovo/Documents/BancaInterface-master
+      dockerfile: BpInterface.WebApi/Dockerfile
+    depends_on:
+      db:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Docker
+      ASPNETCORE_URLS: http://+:80
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "8080"
+      protocol: tcp
+    volumes:
+    - type: bind
+      source: /Users/leonardohidrovo/.aspnet/https
+      target: /https
+      read_only: true
+      bind:
+        create_host_path: true
+  db:
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: StrongPwd1@
+    image: mcr.microsoft.com/azure-sql-edge
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 1433
+      published: "1434"
+      protocol: tcp
+networks:
+  default:
+    name: dockercompose15117949227922450032_default
